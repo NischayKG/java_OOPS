@@ -1,0 +1,16 @@
+class ex2
+{
+	static int a=10;
+	static
+	{
+		System.out.println("Static block a="+a);
+		System.out.println("Static block b="+b);
+	}
+	public static void main(String arr[])
+	{	
+		Ex2 e=new Ex2();
+		System.out.println("Main block a="+e.a);
+		System.out.println("Main block b="+e.b);
+	}
+	Static int b=10;
+}	
